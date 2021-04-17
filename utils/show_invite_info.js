@@ -1,0 +1,21 @@
+module.exports = invite => {
+    console.log(`invite.channel.name: ${invite.channel.name}`);
+    console.log(`invite.code: ${invite.code}`);
+    console.log(`invite.createdAt: ${invite.createdAt}`);
+    console.log(`invite.createdTimestamp: ${invite.createdTimestamp}`);
+    console.log(`invite.deletable: ${invite.deletable}`);
+    console.log(`invite.expiresAt: ${invite.expiresAt}`);
+    console.log(`invite.expiresTimestamp: ${invite.expiresTimestamp}`);
+    console.log(`invite.guild.name: ${invite.guild.name}`);
+    console.log(`invite.inviter.tag: ${invite.inviter.tag}`);
+    console.log(`invite.maxAge: ${invite.maxAge}`);
+    console.log(`invite.maxUses: ${invite.maxUses}`);
+    console.log(`invite.memberCount: ${invite.memberCount}`);
+    console.log(`invite.pinvenceCount: ${invite.pinvenceCount}`);
+    console.log(`invite.targetUser: ${invite.targetUser}`);
+    console.log(`invite.targetUserType: ${invite.targetUserType}`);
+    console.log(`invite.temporary: ${invite.temporary}`);
+    console.log(`invite.url: ${invite.url}`);
+    console.log(`invite.uses: ${invite.uses}`);
+    console.log(`invite.toString(): ${invite.toString()}`);
+};
